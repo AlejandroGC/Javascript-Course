@@ -14,4 +14,26 @@ function reset() {
     document.getElementById('ageInDays').remove();
 }
 
+// Challenge 2: Cat Generator
 
+function generateCat() {
+    var image = document.createElement('img');
+    var div = document.getElementById('flex-cat-gen');
+    image.src = "static/images/giphy.gif";
+    div.appendChild(image);
+}
+
+// Challenge 3: Rock, Paper, Scissors
+
+function rpsGame(yourChoice) {
+    var humanChoice, botChoice
+    humanChoice = yourChoice.id;
+    botChoice = 
+    results = decideWinner(humanChoice, botchoice);
+    message = finalMessage(results);
+    rpsFrontEnd(yourChoice.id, botChoice, message)
+}
+
+function decideWinner(humanChoice, botChoice) {
+
+}
